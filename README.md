@@ -22,4 +22,9 @@
 **6ème séance** : Correction du code de l'encodeur. Il fallait mettre les sorties de l'encodeur, A et B, dans le bon
 	sens. Il est maintenant opérationnel. Nous avons également réalisé le code pour l'asservissement 
 	en courant.
+	
+**7ème séance** : Fin de l'asservissement en courant et tests. L'asservissement n'est pas fonctionnel. Il faut encore 
+ajuster les paramètres du PI car ceux du TD ne fonctionnent pas, mais le code de l'asservissement semble désormais fonctionner.
+Création d'une fonction Shell "commande courant" pour démarrer l'asservissement en mettant un drapeau à 1 et d'une fonction
+"arret commande" qui permet d'arrêter le contrôle du courant en remettant le drapeau à 0 et en réinitialisant les paramètres.
 
